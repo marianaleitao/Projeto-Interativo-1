@@ -1,9 +1,7 @@
-
-
 import logo from './logo.svg';
 import './App.css';
 
-function Routes () {
+function Login () {
   return (
     <div className="App">
       <header className="App-header">
@@ -24,4 +22,4 @@ function Routes () {
   );
 }
 
-export default Routes;
+export default Login;
