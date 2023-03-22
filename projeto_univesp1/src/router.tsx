@@ -1,16 +1,21 @@
 
-import {BrowserRouter, Route } from 'react-router';
+import {  BrowserRouter, Route, Routes } from 'react-router-dom';
+
+
+
 
 import Login from './pages/Login';
 
-function Routes () {
+function Router () {
   return (
-    <BrowserRouter>
-      <Route path = '/' exact component = { < Login />} />
-      
+      <BrowserRouter>
+        <Routes>
+          < Route path= '/'  element = { < Login />} />
+        </Routes>
       </BrowserRouter>
+      
 
   );
 }
 
-export default Routes;
+export default Router;
