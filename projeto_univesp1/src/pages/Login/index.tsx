@@ -1,3 +1,7 @@
+import Departments from "../Departments";
+import Employees from "../Employees";
+import Processes from "../Processes";
+import { BrowserRouter, Routes } from 'react-router-dom';
 
 
 function Login () {
@@ -5,13 +9,25 @@ function Login () {
     <div >
       <header >
         
-        <p>
-          Edit and save to reload.
-            Learn React 
-        </p>   
+        <h1>
+          Seja Bem Vindo!
+        </h1> 
+        <p> Clique na página em que gostaria de ser direcionado</p>
+       
       </header>
+
+      <body>
+        
+          <button onClick={Departments}> Departamentos </button>
+          <button onClick={Processes}> Processos </button>
+          <button onClick={Employees}> Funcionários </button>
+        
+      </body>
+
     </div>
+    
   );
 }
+
 
 export default Login;
