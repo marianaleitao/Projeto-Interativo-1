@@ -1,10 +1,10 @@
-import Routes from "./router";
 
+import Router from './router';
 
-function App() {
+const App = () => {
   return (
-    <Routes />
-    
+    < Router />
+     
   );
 }
 

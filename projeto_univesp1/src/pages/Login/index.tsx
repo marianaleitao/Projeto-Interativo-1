@@ -10,17 +10,19 @@ function Login () {
       <header >
         
         <h1>
-          Seja Bem Vindo!
-        </h1> 
-        <p> Clique na página em que gostaria de ser direcionado</p>
-       
+          Seja Bem Vindo! 
+        </h1>
+        <h1>  
+          Projeto Integrador - Desenvolvimento Web 
+        </h1>
+                   
       </header>
 
       <body>
-        
-          <button onClick={Departments}> Departamentos </button>
-          <button onClick={Processes}> Processos </button>
-          <button onClick={Employees}> Funcionários </button>
+        <p> Clique na página em que gostaria de ser direcionado</p>
+        <button onClick={Departments}> Departamentos </button>
+        <button onClick={Processes}> Processos </button>
+        <button onClick={Employees}> Funcionários </button>
         
       </body>
 
