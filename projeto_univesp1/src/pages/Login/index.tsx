@@ -1,6 +1,4 @@
-import Departments from "../Departments";
-import Employees from "../Employees";
-import Processes from "../Processes";
+import { Link } from "react-router-dom";
 
 
 
@@ -20,9 +18,12 @@ function Login () {
 
       <body>
         <p> Clique na página em que gostaria de ser direcionado</p>
-        <button onClick={Departments}> Departamentos </button>
-        <button onClick={Processes}> Processos </button>
-        <button onClick={Employees}> Funcionários </button>
+        <nav>
+          <Link to ="/departments"> Departamentos </Link>, 
+          <Link to ="/processes"> Processos </Link>, 
+          <Link to ="/employees"> Funcionários </Link>
+          
+        </nav>
         
       </body>
 
