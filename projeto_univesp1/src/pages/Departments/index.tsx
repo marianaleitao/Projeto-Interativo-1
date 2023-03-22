@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 function Departments () {
   return (
@@ -9,6 +9,16 @@ function Departments () {
           Departamentos
         </p>   
       </header>
+      <body>
+      <nav>
+           
+          <Link to ="/"> Login </Link>, 
+          <Link to ="/processes"> Processes </Link>,
+          <Link to ="/employees"> Funcionários </Link>
+          
+        </nav>
+      </body>
+
     </div>
   );
 }
