@@ -1,4 +1,5 @@
 
+import { NOTFOUND } from 'dns';
 import {  BrowserRouter, Route, Routes } from 'react-router-dom';
 import Departments from './pages/Departments';
 import Employees from './pages/Employees';
@@ -17,6 +18,8 @@ function Router () {
           < Route path= '/departments'  element = { < Departments />} />
           < Route path= '/employees'  element = { < Employees />} />
           < Route path= '/processes'  element = { < Processes />} />
+               
+
         </Routes>
       </BrowserRouter>
       
