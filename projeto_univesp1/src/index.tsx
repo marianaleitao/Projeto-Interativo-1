@@ -3,10 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+<<<<<<< HEAD
+import 'bootstrap/dist/css/bootstrap.css';
+=======
+>>>>>>> dabb14ad8fa7076b585bb7bad824ea55f40beeab
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+<<<<<<< HEAD
+
+=======
+>>>>>>> dabb14ad8fa7076b585bb7bad824ea55f40beeab
 root.render(
   <React.StrictMode>
     <App />
