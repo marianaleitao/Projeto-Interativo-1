@@ -1,6 +1,7 @@
 
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
 import ContactsEmployees from './pages/ContactsEmployees';
 import DataDepartments from './pages/DataDepartments';
 import DataProcesses from './pages/DataProcesses';
@@ -15,6 +16,7 @@ export default function Router (){
   return (
     <BrowserRouter>
       <Routes>
+        < Route path= '/'  element = { < Header />} />
         < Route path= '/'  element = { < Login />} />
         < Route path= '/departments'  element = { < Departments />} />
         < Route path= '/datadepartments'  element = { < DataDepartments />} />
