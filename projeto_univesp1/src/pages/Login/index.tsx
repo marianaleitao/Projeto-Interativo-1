@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 
 
-function Login () {
+export default function Login () {
   return (
     <div >
       <header >
@@ -34,4 +34,3 @@ function Login () {
 }
 
 
-export default Login;

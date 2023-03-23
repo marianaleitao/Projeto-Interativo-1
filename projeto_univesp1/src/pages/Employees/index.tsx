@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 
-function Employees () {
+export default function Employees () {
   return (
     <div >
       <header >
@@ -34,4 +34,3 @@ function Employees () {
   );
 }
 
-export default Employees;

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Departments () {
+export default function Departments () {
   return (
     <div >
       <header >
@@ -23,4 +23,3 @@ function Departments () {
   );
 }
 
-export default Departments;

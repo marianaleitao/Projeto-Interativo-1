@@ -1,6 +1,6 @@
 
 
-function Error () {
+export default function Error () {
   return (
     <div >
       <header >
@@ -13,4 +13,3 @@ function Error () {
   );
 }
 
-export default Error;

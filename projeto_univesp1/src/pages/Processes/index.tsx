@@ -1,15 +1,24 @@
 import { Link } from "react-router-dom";
 
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import DataProcesses from "../DataProcesses";
 
-function Processes () {
+export default function Processes () {
   return (
     <div >
       <header >
+        < Header />
+        <DataProcesses />
+        <Footer />
         
         <p>
           Processos
         </p>   
+        
       </header>
+
+      
 
       <body>
       <nav>
@@ -24,4 +33,4 @@ function Processes () {
   );
 }
 
-export default Processes;
+
